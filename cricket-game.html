@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link type="text/css" rel="stylesheet" href="cricket-game.css" />
+    <title>Cricket</title>
+  </head>
+  <body>
+    <div class="wrapper clearfix">
+      <div class="player-0-panel active">
+        <div class="player-name" id="Name-0">Player 1</div>
+        <!--imp-->
+        <div class="player-score" id="score-0">00</div>
+        <!--imp-->
+        <div class="lower-box">
+          <div class="player-current-box">
+            <div class="player-current-label">Current Score</div>
+            <div class="player-current-score" id="current-0">00</div>
+            <!--imp-->
+          </div>
+          <div class="player-current-box">
+            <div class="player-current-label">Remaining Balls</div>
+            <div class="player-current-score" id="remaing-balls-0">00</div>
+            <!--imp-->
+          </div>
+        </div>
+      </div>
+
+      <div class="player-1-panel">
+        <div class="player-name" id="Name-1">Player 2</div>
+        <!---->
+        <div class="player-score" id="score-1">00</div>
+        <!---->
+        <div class="lower-box">
+          <div class="player-current-box">
+            <div class="player-current-label">Current Score</div>
+            <div class="player-current-score" id="current-1">00</div>
+            <!---->
+          </div>
+          <div class="player-current-box balls">
+            <div class="player-current-label">Remaining Balls</div>
+            <div class="player-current-score" id="remaing-balls-1">00</div>
+            <!---->
+          </div>
+        </div>
+      </div>
+      <button class="btn-new">New game</button>
+      <button class="btn-hit">HIT</button>
+      <button class="btn-dec">Declare</button>
+      <img src="resources/Cric-0.png" alt="ball" class="swing" id="dice-1" />
+    </div>
+    <script src="/cricket-game.js"></script>
+  </body>
+</html>

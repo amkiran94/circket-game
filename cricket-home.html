@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket</title>
+    <link rel="stylesheet" href="/cricket-home.css" />
+  </head>
+  <body>
+    <div class="topname">
+      <h1>Welcome to Web Cricket</h1>
+    </div>
+    <div class="container">
+      <br />
+      <hr />
+      <h2 id="headin">Enter Your Names to Play</h2>
+      <form action="cricket-game.html">
+        <input
+          type="text"
+          class="firstPlayer"
+          name="fPlayer"
+          id="fP"
+          placeholder="Enter First Player Name"
+          required
+        /><br /><br />
+        <input
+          type="text"
+          class="secondPlayer"
+          name="sPlayer"
+          id="sP"
+          placeholder="Enter Second Player Name"
+          required
+        /><br /><br />
+        <input
+          type="text"
+          class="numberBalls"
+          name="nBalls"
+          id="nB"
+          placeholder="Maximum Balls"
+          required
+        /><br /><br />
+        <br />
+        <button type="submit" class="btn-enter">Begin!!</button>
+      </form>
+    </div>
+    <div class="rules">
+      <ul class="list">
+        <h1>Rules:</h1>
+        <li>Each player plays gets maximum number of balls to play.</li>
+        <li>
+          Each player gets his turn to play simultaneously. if you get out(0)
+          then you wont be able to continue further and your current score gets
+          added to the final score.
+        </li>
+        <li>
+          If you think you have enough runs then hit the declare and let the
+          other player to play.
+        </li>
+        <li>Whoever gets more runs wins the game!!</li>
+      </ul>
+    </div>
+  </body>
+</html>
